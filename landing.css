@@ -1,0 +1,119 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #3d3c3c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: #00ff88;
+  font-weight: bolder;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.logo img {
+  border: 2px solid #00ff88;
+  border-radius: 50%;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.menu a:hover {
+  cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url(chaicohort.jpg);
+  background-size: 100%;
+  text-align: center;
+  width: 1528px;
+  height: 600px;
+  fill-opacity: calc(10px);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.hero-content h1 {
+  font-weight: bolder;
+  color: #00ff88;
+  padding: 20px;
+}
+
+.hero-content p {
+  font-weight: lighter;
+  color: #ffffff;
+}
+
+.hero-content img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #00ff88;
+  border-radius: 10px;
+}
+
+.enroll-button {
+  background-color: #00ff88;
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+}
+
+.enroll-button:hover {
+  cursor: pointer;
+  background-color: #d9ff00;
+}
+
+/* Highlights section styles */
+.highlights {
+  background-color: #3d3c3c;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+}
+
+.highlight-card {
+  background-color: #4c4b4b;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.highlight-card h3 {
+  font-weight: bolder;
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+.highlight-card p {
+  font-weight: lighter;
+  color: #ffffff;
+}
